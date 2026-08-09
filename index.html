@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="J/K DayZ">
+<meta name="theme-color" content="#242629">
+<link rel="apple-touch-icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj4KPHJlY3Qgd2lkdGg9IjUxMiIgaGVpZ2h0PSI1MTIiIHJ4PSIxMTAiIGZpbGw9IiMyYjJkMzAiLz4KPHBhdGggZD0iTTAgNDAwVjUxMmgxOTBMNTEyIDE5MFY1NUw0NTcgMGgtOTh6IiBmaWxsPSIjOGUxZDFkIi8+CjxwYXRoIGQ9Ik0yNTYgNTYgNDI4IDEzMyAzODkgMzQwIDI1NiA0NTYgMTIzIDM0MCA4NCAxMzNaIiBmaWxsPSIjYzRhMzRhIi8+CjxwYXRoIGQ9Ik0yNTYgMTAzIDM3OSAxNTkgMzUwIDMxNCAyNTYgMzk2IDE2MiAzMTQgMTMzIDE1OVoiIGZpbGw9IiMyNDI2MjkiLz4KPGNpcmNsZSBjeD0iMjU2IiBjeT0iMTUyIiByPSIyMyIgZmlsbD0iI2E5MmEyOCIvPgo8dGV4dCB4PSIyNTYiIHk9IjI4NiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iOTAwIiBmb250LXNpemU9IjExMiIgZmlsbD0iI2U2Y2E2OSI+Si9LPC90ZXh0Pgo8L3N2Zz4=">
+<link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj4KPHJlY3Qgd2lkdGg9IjUxMiIgaGVpZ2h0PSI1MTIiIHJ4PSIxMTAiIGZpbGw9IiMyYjJkMzAiLz4KPHBhdGggZD0iTTAgNDAwVjUxMmgxOTBMNTEyIDE5MFY1NUw0NTcgMGgtOTh6IiBmaWxsPSIjOGUxZDFkIi8+CjxwYXRoIGQ9Ik0yNTYgNTYgNDI4IDEzMyAzODkgMzQwIDI1NiA0NTYgMTIzIDM0MCA4NCAxMzNaIiBmaWxsPSIjYzRhMzRhIi8+CjxwYXRoIGQ9Ik0yNTYgMTAzIDM3OSAxNTkgMzUwIDMxNCAyNTYgMzk2IDE2MiAzMTQgMTMzIDE1OVoiIGZpbGw9IiMyNDI2MjkiLz4KPGNpcmNsZSBjeD0iMjU2IiBjeT0iMTUyIiByPSIyMyIgZmlsbD0iI2E5MmEyOCIvPgo8dGV4dCB4PSIyNTYiIHk9IjI4NiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iOTAwIiBmb250LXNpemU9IjExMiIgZmlsbD0iI2U2Y2E2OSI+Si9LPC90ZXh0Pgo8L3N2Zz4=">
+<title>J/K DayZ – PS5 Survival Guide</title>
+<style>
+:root{--bg:#17191b;--panel:#24272a;--panel2:#2c3033;--line:#454a4e;--text:#f4f4f1;--muted:#a9adaf;--gold:#c5a349;--gold2:#e1c466;--red:#8f1f1f;--red2:#c13b37;--green:#6fb06c;--shadow:0 12px 34px rgba(0,0,0,.28)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;background:var(--bg)}body{margin:0;color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;background:radial-gradient(circle at 18% -8%,#3b3b36 0,transparent 25%),linear-gradient(#26292c,#17191b 36%,#121415);min-height:100vh}
+button,input,select{font:inherit}button{cursor:pointer}a{color:inherit}.app{max-width:920px;margin:auto;padding-bottom:96px}
+.hero{padding:calc(env(safe-area-inset-top) + 18px) 15px 15px;border-bottom:1px solid var(--line);background:linear-gradient(145deg,#303336,#232629 62%,#321f1f)}
+.brand{display:flex;align-items:center;gap:12px}.brand img{width:58px;height:58px;border-radius:17px;box-shadow:var(--shadow)}h1{font-size:23px;line-height:1.03;margin:0}.sub{font-size:11px;color:var(--gold2);font-weight:900;letter-spacing:.7px;margin-top:5px}.version{margin-left:auto;border:1px solid #695a2f;background:#282316;color:#e4cb71;border-radius:999px;padding:6px 8px;font-size:9px;font-weight:900}
+.hero p{margin:14px 0 0;color:#d0d3d1;font-size:13px;line-height:1.45}
+.toolbar{position:sticky;top:0;z-index:30;background:#17191bf0;backdrop-filter:blur(18px);border-bottom:1px solid var(--line);padding:9px 12px}.search{position:relative}.search input{width:100%;background:#25292c;color:white;border:1px solid #53595d;border-radius:14px;padding:13px 43px;font-size:16px;outline:none}.search input:focus{border-color:var(--gold)}.search .s{position:absolute;left:14px;top:50%;transform:translateY(-50%)}.search .x{position:absolute;right:8px;top:50%;transform:translateY(-50%);border:0;border-radius:9px;background:#3c4145;color:white;padding:6px 9px}
+main{padding:12px}.welcome{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:2px 0 14px}.quick{text-align:left;border:1px solid var(--line);border-radius:15px;background:linear-gradient(145deg,#2d3134,#24272a);color:white;padding:12px;min-height:82px;box-shadow:var(--shadow)}.quick span{font-size:23px;display:block}.quick b{font-size:12.5px;display:block;margin-top:5px}.quick small{font-size:9.5px;color:var(--muted)}
+.section{scroll-margin-top:82px;margin:23px 0}.sectionhead{display:flex;align-items:center;justify-content:space-between;margin:0 2px 9px}.sectionhead div{display:flex;gap:8px;align-items:center}.sectionhead h2{font-size:16px;margin:0}.sectionhead small{font-size:10px;color:var(--muted)}.gold{color:var(--gold2)}.red{color:#e26964}
+.card{border:1px solid var(--line);border-radius:15px;background:linear-gradient(#292d30,#23272a);margin:8px 0;overflow:hidden;box-shadow:0 7px 20px #0003}.card summary{list-style:none;display:flex;align-items:center;gap:10px;padding:12px;-webkit-tap-highlight-color:transparent}.card summary::-webkit-details-marker{display:none}.ico{width:40px;height:40px;border-radius:11px;background:#353a3d;border:1px solid #555b5f;display:grid;place-items:center;font-size:20px;flex:0 0 auto}.ct{flex:1;min-width:0}.ct b{font-size:14px;display:block}.ct small{color:#cbb363;font-size:10px;display:block;margin-top:3px}.chev{font-size:25px;color:#aaa;transition:.15s}details[open] .chev{transform:rotate(90deg);color:var(--gold2)}.body{border-top:1px solid #44494c;border-left:3px solid var(--red);padding:12px 13px;background:#202427;font-size:13px;line-height:1.5}
+.row{display:flex;justify-content:space-between;gap:10px;padding:8px 0;border-bottom:1px solid #3a4043}.row:last-child{border:0}.row span{color:var(--muted)}.row b{text-align:right}.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}.chip{border:1px solid #5c5030;background:#292419;color:#dfc76f;border-radius:999px;padding:6px 8px;font-size:10px}
+.panel{border:1px solid var(--line);border-radius:16px;background:#23272a;padding:12px;margin:8px 0;box-shadow:var(--shadow)}.panel h3{font-size:14px;margin:0 0 9px}.panel p{color:#cfd2d0;font-size:12.5px;line-height:1.5;margin:7px 0}select,.field{width:100%;background:#2e3336;border:1px solid #53595d;color:white;border-radius:12px;padding:11px;margin:5px 0;outline:none}.btn{border:1px solid #6a592d;background:linear-gradient(#c9aa50,#a98731);color:#141414;border-radius:11px;padding:10px 12px;font-weight:900;font-size:12px}.btn.redbtn{border-color:#82302e;background:linear-gradient(#a82d2a,#7b1c1a);color:white}.btn.gray{background:#353a3d;border-color:#565c60;color:white}.btnrow{display:flex;gap:7px;flex-wrap:wrap;margin-top:8px}
+.resultbox{margin-top:10px;border:1px solid #524a31;background:#29261c;border-radius:12px;padding:10px;font-size:12.5px;line-height:1.5}.resultbox.good{border-color:#385b38;background:#1c291e}.resultbox.bad{border-color:#6b3030;background:#2a1d1d}
+.table{overflow:auto;border:1px solid #454b4e;border-radius:12px}table{border-collapse:collapse;width:100%;min-width:620px;font-size:11px}th,td{padding:9px;border-bottom:1px solid #3d4346;text-align:left}th{background:#303437;color:#e0c666;position:sticky;top:0}td{color:#ddd}
+.favbtn{border:0;background:transparent;color:#777;font-size:21px;padding:4px}.favbtn.on{color:#e3c75d}.toolgrid{display:grid;grid-template-columns:1fr 1fr;gap:8px}.checkitem{display:flex;align-items:center;gap:8px;padding:9px;border:1px solid #444a4d;border-radius:11px;background:#292d30;font-size:12px}.checkitem input{width:18px;height:18px;accent-color:#c7a74d}
+.bottom{position:fixed;left:0;right:0;bottom:0;z-index:40;background:#181a1cf2;backdrop-filter:blur(18px);border-top:1px solid #41464a;padding:7px 8px calc(7px + env(safe-area-inset-bottom))}.bottomin{max-width:920px;margin:auto;display:grid;grid-template-columns:repeat(5,1fr);gap:4px}.navbtn{text-decoration:none;color:#aeb2b4;text-align:center;font-size:9px;padding:5px 2px;border-radius:10px}.navbtn span{display:block;font-size:19px;margin-bottom:2px}.navbtn:hover{background:#2a2e31;color:#e4c765}
+.hidden{display:none!important}#topbtn{position:fixed;right:14px;bottom:92px;z-index:45;width:42px;height:42px;border-radius:50%;border:1px solid #66582f;background:#2b2619;color:#e4c767;font-size:20px;display:none}.toast{position:fixed;left:50%;bottom:100px;transform:translateX(-50%);background:#34383b;color:white;border:1px solid #5d6265;padding:9px 12px;border-radius:999px;font-size:11px;z-index:80;box-shadow:var(--shadow)}
+.modal{position:fixed;inset:0;background:#000b;z-index:90;display:none;align-items:flex-end;justify-content:center}.modal.open{display:flex}.sheet{width:min(920px,100%);max-height:88vh;overflow:auto;background:#222629;border-radius:22px 22px 0 0;border:1px solid #4b5154;padding:15px 14px calc(20px + env(safe-area-inset-bottom))}.sheethead{display:flex;justify-content:space-between;align-items:center}.sheethead h3{margin:0;font-size:17px}.close{border:0;background:#383d40;color:white;border-radius:10px;padding:7px 10px}
+@media(min-width:720px){.welcome{grid-template-columns:repeat(4,1fr)}.toolgrid{grid-template-columns:repeat(3,1fr)}}
+</style>
+</head>
+<body><div class="app" id="top">
+<header class="hero">
+<div class="brand"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj4KPHJlY3Qgd2lkdGg9IjUxMiIgaGVpZ2h0PSI1MTIiIHJ4PSIxMTAiIGZpbGw9IiMyYjJkMzAiLz4KPHBhdGggZD0iTTAgNDAwVjUxMmgxOTBMNTEyIDE5MFY1NUw0NTcgMGgtOTh6IiBmaWxsPSIjOGUxZDFkIi8+CjxwYXRoIGQ9Ik0yNTYgNTYgNDI4IDEzMyAzODkgMzQwIDI1NiA0NTYgMTIzIDM0MCA4NCAxMzNaIiBmaWxsPSIjYzRhMzRhIi8+CjxwYXRoIGQ9Ik0yNTYgMTAzIDM3OSAxNTkgMzUwIDMxNCAyNTYgMzk2IDE2MiAzMTQgMTMzIDE1OVoiIGZpbGw9IiMyNDI2MjkiLz4KPGNpcmNsZSBjeD0iMjU2IiBjeT0iMTUyIiByPSIyMyIgZmlsbD0iI2E5MmEyOCIvPgo8dGV4dCB4PSIyNTYiIHk9IjI4NiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iOTAwIiBmb250LXNpemU9IjExMiIgZmlsbD0iI2U2Y2E2OSI+Si9LPC90ZXh0Pgo8L3N2Zz4=" alt="J/K"><div><h1>J/K DayZ</h1><div class="sub">PS5 · VANILLA · DEUTSCH</div></div><div class="version">STABLE 1.29</div></div>
+<p>Survival Assistant, Crafting, Waffen, Nahrung, Medizin, Blut, Fahrzeuge, Basebuilding, Reparaturen, Loot und PS5-Hilfe – alles in einer einzigen Datei.</p>
+</header>
+<div class="toolbar"><div class="search"><span class="s">🔎</span><input id="globalSearch" type="search" placeholder="Suche: M4, Cholera, Seil, Batterie …"><button class="x" id="clearSearch">×</button></div></div>
+<main>
+<div class="welcome">
+<button class="quick" onclick="openAssistant()"><span>🧠</span><b>Survival Assistant</b><small>Problem auswählen → Lösung</small></button>
+<a class="quick" href="#craft"><span>🧰</span><b>Crafting</b><small>Rezepte & Materialfinder</small></a>
+<a class="quick" href="#weapons"><span>🔫</span><b>Waffen</b><small>Kaliber & Attachments</small></a>
+<a class="quick" href="#cars"><span>🚗</span><b>Auto-Diagnose</b><small>Warum startet es nicht?</small></a>
+<a class="quick" href="#base"><span>🏠</span><b>Base-Rechner</b><small>Material automatisch rechnen</small></a>
+<a class="quick" href="#medical"><span>🩺</span><b>Krankheiten</b><small>Symptom-Checker</small></a>
+<a class="quick" href="#blood"><span>🩸</span><b>Blutgruppen</b><small>Kompatibilität prüfen</small></a>
+<button class="quick" onclick="showFavorites()"><span>⭐</span><b>Favoriten</b><small>Gespeicherte Themen</small></button>
+</div>
+
+<section class="section search-section" id="recent"><div class="sectionhead"><div><span>🕘</span><h2>Zuletzt angesehen</h2></div><small>lokal gespeichert</small></div><div id="recentList" class="panel"></div></section>
+
+<section class="section search-section" id="craft">
+<div class="sectionhead"><div><span>🧰</span><h2>Crafting & Materialfinder</h2></div><small>31 Rezepte</small></div>
+<div class="panel"><h3>🔄 Was kann ich mit meinem Material craften?</h3><input class="field" id="materialInput" placeholder="z. B. Seil, Nägel, kurzer Stock"><div id="materialResults" class="resultbox">Material eingeben.</div></div>
+<div id="craftList"></div>
+</section>
+
+<section class="section search-section" id="food"><div class="sectionhead"><div><span>🍖</span><h2>Nahrung & Wasser</h2></div><small>Kochen, Jagd, Angeln</small></div>
+<div class="panel"><h3>💧 Sicheres Wasser</h3><p>Brunnenwasser ist die Standardwahl. Gefundene Flaschen besser erst entleeren. Oberflächenwasser abkochen oder passend reinigen. Rohes Tierfleisch vermeiden; nach dem Schlachten Hände waschen oder Handschuhe tragen.</p></div>
+<div id="foodList"></div>
+</section>
+
+<section class="section search-section" id="weapons"><div class="sectionhead"><div><span>🔫</span><h2>Waffen & Munition</h2></div><small>29 Einträge</small></div>
+<div class="panel"><h3>🎯 Kaliber-Finder</h3><select id="caliberSelect"><option value="">Kaliber auswählen…</option></select><div id="caliberResult" class="resultbox">Zeigt passende Waffen.</div></div>
+<div class="panel"><h3>🧩 Attachment-Finder</h3><select id="attachSelect"><option value="">Aufsatz auswählen…</option><option>Gewehrschalldämpfer</option><option>Pistolenschalldämpfer</option><option>Ost-Schalldämpfer</option><option>Hunting Scope</option><option>Rail-Optiken</option></select><div id="attachResult" class="resultbox">Zeigt kompatible Waffen.</div></div>
+<div id="weaponList"></div>
+</section>
+
+<section class="section search-section" id="armor"><div class="sectionhead"><div><span>🛡️</span><h2>Rüstung & Kleidung</h2></div><small>Vergleich</small></div><div id="armorTable" class="table"></div></section>
+
+<section class="section search-section" id="medical"><div class="sectionhead"><div><span>🩺</span><h2>Medizin & Krankheiten</h2></div><small>Symptom-Checker</small></div>
+<div class="panel"><h3>🤒 Symptome auswählen</h3><div id="symptomChecks" class="toolgrid"></div><button class="btn redbtn" onclick="diagnoseSymptoms()">Auswerten</button><div id="symptomResult" class="resultbox">Wähle deine Symptome.</div></div>
+<div id="medList"></div>
+</section>
+
+<section class="section search-section" id="blood"><div class="sectionhead"><div><span>🩸</span><h2>Blutgruppen-Rechner</h2></div><small>Transfusion</small></div>
+<div class="panel"><h3>Wer darf mir Blut geben?</h3><select id="recipient"><option>O−</option><option>O+</option><option>A−</option><option>A+</option><option>B−</option><option>B+</option><option>AB−</option><option>AB+</option></select><button class="btn" onclick="bloodCheck()">Prüfen</button><div id="bloodResult" class="resultbox"></div><p>O− ist universeller Spender; AB+ universeller Empfänger. Blut vor Transfusion testen.</p></div>
+</section>
+
+<section class="section search-section" id="cars"><div class="sectionhead"><div><span>🚗</span><h2>Fahrzeuge & Diagnose</h2></div><small>Vanilla</small></div>
+<div class="panel"><h3>🔧 Auto startet nicht?</h3>
+<select id="carSelect"><option value="">Fahrzeug auswählen…</option><option>Ada 4x4</option><option>Olga 24</option><option>Gunter 2</option><option>Sarka 120</option><option>M3S</option></select>
+<div class="toolgrid" id="carChecks">
+<label class="checkitem"><input type="checkbox" value="battery"> Batterie vorhanden</label>
+<label class="checkitem"><input type="checkbox" value="plug"> Zündkerze vorhanden</label>
+<label class="checkitem"><input type="checkbox" value="fuel"> Benzin vorhanden</label>
+<label class="checkitem"><input type="checkbox" value="rad"> Kühler vorhanden</label>
+<label class="checkitem"><input type="checkbox" value="water"> Kühler mit Wasser</label>
+<label class="checkitem"><input type="checkbox" value="wheels"> Räder fahrbereit</label>
+</div><button class="btn redbtn" onclick="diagnoseCar()">Diagnose</button><div id="carResult" class="resultbox">Fahrzeug und vorhandene Teile markieren.</div></div>
+<div id="vehicleList"></div>
+</section>
+
+<section class="section search-section" id="base"><div class="sectionhead"><div><span>🏠</span><h2>Basebuilding & Rechner</h2></div><small>Materialplanung</small></div>
+<div class="panel"><h3>🧮 Schnellrechner</h3>
+<div class="row"><span>Holzkisten</span><input id="crateCount" class="field" type="number" min="0" value="0" style="width:90px"></div>
+<div class="row"><span>Zaun-Bausätze</span><input id="fenceCount" class="field" type="number" min="0" value="0" style="width:90px"></div>
+<div class="row"><span>Wachturm-Bausätze</span><input id="towerCount" class="field" type="number" min="0" value="0" style="width:90px"></div>
+<div class="row"><span>Unterstand-Bausätze</span><input id="shelterCount" class="field" type="number" min="0" value="0" style="width:90px"></div>
+<button class="btn" onclick="calcBase()">Material berechnen</button><div id="baseResult" class="resultbox">Mengen eingeben.</div></div>
+<div class="panel"><h3>🚪 Zaun → Tor</h3><p>Zaun-Bausatz platzieren → 2 Holzstämme einsetzen → Fundament bauen → Bretter/Nägel für Rahmen und Wand → Metalldraht anbringen → mit Kombizange zum Tor umbauen → 3- oder 4-stelliges Zahlenschloss anbringen.</p></div>
+</section>
+
+<section class="section search-section" id="repair"><div class="sectionhead"><div><span>🔧</span><h2>Reparatur-Finder</h2></div><small>Welches Kit?</small></div>
+<div class="panel"><select id="repairSelect"><option value="">Gegenstandstyp wählen…</option><option>Schusswaffe</option><option>Stoffkleidung</option><option>Lederausrüstung</option><option>Plate Carrier / harte Ausrüstung</option><option>Elektronik / Autobatterie</option><option>Reifen</option><option>Metall-/Kochgegenstände</option></select><div id="repairResult" class="resultbox">Typ auswählen.</div></div>
+</section>
+
+<section class="section search-section" id="loot"><div class="sectionhead"><div><span>🗺️</span><h2>Loot & Checkliste</h2></div><small>für unterwegs</small></div>
+<div id="lootList"></div>
+<div class="panel"><h3>📋 Meine Loot-Checkliste</h3><div id="lootChecklist" class="toolgrid"></div><div class="btnrow"><button class="btn gray" onclick="addLootItem()">+ Eigenen Eintrag</button><button class="btn redbtn" onclick="resetLoot()">Liste zurücksetzen</button></div></div>
+</section>
+
+<section class="section search-section" id="gas"><div class="sectionhead"><div><span>☣️</span><h2>Gas-Zonen & NBC</h2></div><small>Überleben</small></div>
+<div class="panel"><h3>☣️ Grundausrüstung</h3><p>Für kontaminierte Zonen brauchst du vollständige passende Schutzausrüstung inklusive Atemschutz und funktionierendem Filter. Fehlende Teile bedeuten Exposition. Filterzustand im Auge behalten und Aufenthalt planen.</p></div></section>
+
+<section class="section search-section" id="ps5"><div class="sectionhead"><div><span>🎮</span><h2>PS5 Schnellhilfe</h2></div><small>Controller</small></div><div id="controllerList" class="panel"></div></section>
+
+<section class="section search-section" id="favorites"><div class="sectionhead"><div><span>⭐</span><h2>Favoriten</h2></div><small>lokal gespeichert</small></div><div id="favList" class="panel">Noch keine Favoriten.</div></section>
+
+</main></div>
+
+<button id="topbtn" onclick="scrollTo({top:0,behavior:'smooth'})">↑</button>
+<div class="bottom"><div class="bottomin">
+<a class="navbtn" href="#top"><span>⌂</span>Home</a>
+<a class="navbtn" href="#craft"><span>🧰</span>Crafting</a>
+<a class="navbtn" href="#weapons"><span>🔫</span>Waffen</a>
+<button class="navbtn" style="border:0;background:transparent" onclick="openAssistant()"><span>🧠</span>Assistant</button>
+<a class="navbtn" href="#favorites"><span>⭐</span>Favoriten</a>
+</div></div>
+
+<div class="modal" id="assistantModal" onclick="if(event.target===this)closeAssistant()"><div class="sheet">
+<div class="sheethead"><h3>🧠 J/K Survival Assistant</h3><button class="close" onclick="closeAssistant()">✕</button></div>
+<p style="color:#bbb;font-size:12px">Was ist gerade dein Problem?</p>
+<div class="toolgrid">
+<button class="quick" onclick="assistantAnswer('hunger')"><span>🍎</span><b>Ich verhungere</b></button>
+<button class="quick" onclick="assistantAnswer('thirst')"><span>💧</span><b>Ich verdurste</b></button>
+<button class="quick" onclick="assistantAnswer('sick')"><span>🤢</span><b>Ich bin krank</b></button>
+<button class="quick" onclick="assistantAnswer('bleed')"><span>🩸</span><b>Ich blute</b></button>
+<button class="quick" onclick="assistantAnswer('cold')"><span>🥶</span><b>Mir ist kalt</b></button>
+<button class="quick" onclick="assistantAnswer('car')"><span>🚗</span><b>Auto gefunden</b></button>
+<button class="quick" onclick="assistantAnswer('base')"><span>🏠</span><b>Ich will Base bauen</b></button>
+<button class="quick" onclick="assistantAnswer('gun')"><span>🔫</span><b>Waffe funktioniert nicht</b></button>
+</div><div id="assistantResult" class="resultbox">Wähle eine Situation.</div></div></div>
+
+<script>
+const DB={"crafting": [{"name": "Seil aus Lumpen", "need": ["12 Lumpen (2×6)"], "tool": "Kombinieren", "result": "Seil", "cat": "Material", "tags": ["seil", "rope", "lumpen"]}, {"name": "Seil aus Gedärmen", "need": ["Gedärme"], "tool": "Schneidwerkzeug", "result": "Seil", "cat": "Material", "tags": ["seil", "gedärme", "guts"]}, {"name": "Lumpen", "need": ["Geeignetes Kleidungsstück"], "tool": "Messer / Schneidwerkzeug", "result": "Lumpen", "cat": "Material", "tags": ["lumpen", "rags"]}, {"name": "Jutestreifen", "need": ["Jutesack"], "tool": "Messer / Schneidwerkzeug", "result": "Jutestreifen", "cat": "Material", "tags": ["jute", "ghillie"]}, {"name": "Kurze Stöcke", "need": ["Langer Stock"], "tool": "Messer / Schneidwerkzeug", "result": "Kurze Stöcke", "cat": "Material", "tags": ["stock", "stöcke"]}, {"name": "Bretter", "need": ["Holzstamm"], "tool": "Handsäge / Bügelsäge", "result": "Bretter", "cat": "Base", "tags": ["bretter", "planks"]}, {"name": "Handbohrset", "need": ["1 kurzer Stock", "1 Baumrinde"], "tool": "Kombinieren", "result": "Handbohrset", "cat": "Feuer", "tags": ["feuer", "hand drill"]}, {"name": "Feuerstelle", "need": ["Brennstoff", "Anzündmaterial"], "tool": "Kombinieren", "result": "Feuerstelle", "cat": "Feuer", "tags": ["feuerstelle", "fireplace"]}, {"name": "Improvisierte Angel", "need": ["1 langer Stock", "1 Seil"], "tool": "Kombinieren", "result": "Improvisierte Angel", "cat": "Angeln", "tags": ["angel", "fishing"]}, {"name": "Knochenhaken", "need": ["Knochen"], "tool": "Schneidwerkzeug", "result": "Knochenhaken", "cat": "Angeln", "tags": ["haken", "hook"]}, {"name": "Holzhaken", "need": ["Kurzer Stock"], "tool": "Schneidwerkzeug", "result": "Holzhaken", "cat": "Angeln", "tags": ["haken", "hook"]}, {"name": "Kleine Fischfalle", "need": ["Plastikflasche"], "tool": "Schneidwerkzeug", "result": "Kleine Fischfalle", "cat": "Angeln", "tags": ["fischfalle", "trap"]}, {"name": "Fischnetzfalle", "need": ["Netz", "Metalldraht"], "tool": "Kombinieren", "result": "Fischnetzfalle", "cat": "Angeln", "tags": ["netz", "fischfalle"]}, {"name": "Schiene", "need": ["Kurze Stöcke", "Lumpen oder Verband"], "tool": "Kombinieren", "result": "Schiene", "cat": "Medizin", "tags": ["schiene", "splint"]}, {"name": "Jute-Kuriertasche", "need": ["Jutesack", "Seil"], "tool": "Kombinieren", "result": "Kuriertasche", "cat": "Tasche", "tags": ["tasche", "burlap"]}, {"name": "Jute-Rucksack", "need": ["Jute-Kuriertasche", "3 kurze Stöcke"], "tool": "Kombinieren", "result": "Improvisierter Rucksack", "cat": "Tasche", "tags": ["rucksack", "backpack"]}, {"name": "Steinmesser", "need": ["Geeignete kleine Steine"], "tool": "Herstellen", "result": "Steinmesser", "cat": "Werkzeug", "tags": ["messer", "stone knife"]}, {"name": "Knochenmesser", "need": ["Knochen"], "tool": "Herstellen", "result": "Knochenmesser", "cat": "Werkzeug", "tags": ["messer", "bone knife"]}, {"name": "Improvisierter Speer", "need": ["Langer Stock", "Stein- oder Knochenmesser"], "tool": "Kombinieren", "result": "Speer", "cat": "Waffe", "tags": ["speer", "spear"]}, {"name": "Flaschen-Schalldämpfer", "need": ["Plastikflasche", "Klebeband"], "tool": "Kombinieren", "result": "Improvisierter Schalldämpfer", "cat": "Waffe", "tags": ["schalldämpfer", "suppressor"]}, {"name": "Schlingenfalle", "need": ["Metalldraht", "Stock"], "tool": "Kombinieren", "result": "Schlingenfalle", "cat": "Falle", "tags": ["falle", "snare"]}, {"name": "Stolperdraht", "need": ["Metalldraht", "2 kurze Stöcke"], "tool": "Kombinieren", "result": "Stolperdraht", "cat": "Falle", "tags": ["tripwire", "stolperdraht"]}, {"name": "Holzkiste", "need": ["8 Bretter", "16 Nägel"], "tool": "Kombinieren", "result": "Holzkiste", "cat": "Base", "tags": ["kiste", "crate"]}, {"name": "Zaun-Bausatz", "need": ["2 kurze Stöcke", "1 Seil"], "tool": "Kombinieren", "result": "Zaun-Bausatz", "cat": "Base", "tags": ["zaun", "fence"]}, {"name": "Wachturm-Bausatz", "need": ["4 kurze Stöcke", "1 Seil"], "tool": "Kombinieren", "result": "Wachturm-Bausatz", "cat": "Base", "tags": ["wachturm", "watchtower"]}, {"name": "Unterstand-Bausatz", "need": ["4 kurze Stöcke", "1 Seil"], "tool": "Kombinieren", "result": "Unterstand-Bausatz", "cat": "Base", "tags": ["unterstand", "shelter"]}, {"name": "Flaggenmast-Bausatz", "need": ["3 kurze Stöcke", "1 Seil"], "tool": "Kombinieren", "result": "Flaggenmast-Bausatz", "cat": "Base", "tags": ["flagge", "flagpole"]}, {"name": "Tor aus Zaun", "need": ["Fertiger Zaun", "Metalldraht"], "tool": "Kombizange", "result": "Tor", "cat": "Base", "tags": ["tor", "gate", "kombizange"]}, {"name": "Ghillie-Kapuze", "need": ["Jutestreifen", "Netz"], "tool": "Kombinieren", "result": "Ghillie-Kapuze", "cat": "Ghillie", "tags": ["ghillie", "kapuze"]}, {"name": "Ghillie-Anzug", "need": ["Jutestreifen", "Netz"], "tool": "Kombinieren", "result": "Ghillie-Anzug", "cat": "Ghillie", "tags": ["ghillie", "anzug"]}, {"name": "Ghillie-Waffenwicklung", "need": ["Jutestreifen", "Netz"], "tool": "Kombinieren", "result": "Waffenwicklung", "cat": "Ghillie", "tags": ["ghillie", "waffe"]}], "weapons": [{"name": "M4-A1", "type": "Sturmgewehr", "cal": "5.56×45 mm", "mag": "STANAG / C-Mag", "modes": "Semi / Auto", "optic": "Rail-Optiken", "sup": "Standard-Gewehrschalldämpfer", "role": "Sehr starker Allrounder, hohe Feuerrate."}, {"name": "M16-A2", "type": "Sturmgewehr", "cal": "5.56×45 mm", "mag": "STANAG", "modes": "Semi / Burst", "optic": "Eingeschränkte Optikoptionen", "sup": "Je nach Laufaufsatz", "role": "Stark auf Mittelstrecke, kontrollierbar."}, {"name": "AUR AX", "type": "Sturmgewehr", "cal": "5.56×45 mm", "mag": "STANAG", "modes": "Semi / Auto", "optic": "Rail-Optiken", "sup": "Gewehrschalldämpfer", "role": "Kompakter 5.56-Allrounder."}, {"name": "AUR A1", "type": "Sturmgewehr", "cal": "5.56×45 mm", "mag": "Eigenes Magazin", "modes": "Semi / Auto", "optic": "Integrierte Optik", "sup": "Gewehrschalldämpfer", "role": "Kompakt, schnell einsatzbereit."}, {"name": "LE-MAS", "type": "Sturmgewehr", "cal": "5.56×45 mm", "mag": "STANAG", "modes": "Semi / Auto", "optic": "Begrenzt", "sup": "Je nach Laufaufsatz", "role": "Sehr kompakt für CQB."}, {"name": "KA-M", "type": "Sturmgewehr", "cal": "7.62×39 mm", "mag": "KA-M Magazin / Trommel", "modes": "Semi / Auto", "optic": "KA-Optiken", "sup": "Ost-Schalldämpfer", "role": "Hoher Punch, vielseitig."}, {"name": "KA-74", "type": "Sturmgewehr", "cal": "5.45×39 mm", "mag": "KA-74 Magazin", "modes": "Semi / Auto", "optic": "KA-Optiken", "sup": "Ost-Schalldämpfer", "role": "Gute Kontrolle bei Vollauto."}, {"name": "KAS-74U", "type": "Sturmgewehr", "cal": "5.45×39 mm", "mag": "KA-74 Magazin", "modes": "Semi / Auto", "optic": "Begrenzt", "sup": "Ost-Schalldämpfer", "role": "Sehr kompakt für Häuser/Städte."}, {"name": "SK 59/66", "type": "Selbstladegewehr", "cal": "7.62×39 mm", "mag": "Intern", "modes": "Semi", "optic": "PU-ähnliche Optionen je nach Version", "sup": "Nein", "role": "Solider Midgame-Allrounder."}, {"name": "DMR", "type": "DMR", "cal": ".308 WIN", "mag": "DMR Magazin", "modes": "Semi", "optic": "Rail-Optiken", "sup": "Gewehrschalldämpfer", "role": "Extrem stark auf Mittel-/Langdistanz."}, {"name": "SVD", "type": "DMR", "cal": "7.62×54R", "mag": "SVD Magazin", "modes": "Semi", "optic": "PSO-Optik", "sup": "Ost-Schalldämpfer", "role": "Starkes halbautomatisches Präzisionsgewehr."}, {"name": "Mosin 91/30", "type": "Repetiergewehr", "cal": "7.62×54R", "mag": "Intern", "modes": "Bolt", "optic": "PU", "sup": "Improvisierter Schalldämpfer", "role": "Klassischer Long-Range-Favorit."}, {"name": "Tundra", "type": "Repetiergewehr", "cal": ".308 WIN", "mag": "Intern", "modes": "Bolt", "optic": "Hunting Scope", "sup": "Improvisierter Schalldämpfer", "role": "Sehr gutes Jagd-/Sniper-Gewehr."}, {"name": "Savanna", "type": "Repetiergewehr", "cal": ".308 WIN", "mag": "Savanna Magazin", "modes": "Bolt", "optic": "Hunting Scope", "sup": "Improvisierter Schalldämpfer", "role": "Starke Jagdwaffe mit Magazin."}, {"name": "Blaze", "type": "Doppellaufgewehr", "cal": ".308 WIN", "mag": "2 Patronen", "modes": "Single / Double", "optic": "Hunting Scope", "sup": "Nein", "role": "Sehr hoher Burst auf Distanz."}, {"name": "CR-527", "type": "Repetiergewehr", "cal": "7.62×39 mm", "mag": "CR-527 Magazin", "modes": "Bolt", "optic": "Hunting Scope", "sup": "Improvisierter Schalldämpfer", "role": "Gute frühe Jagdwaffe."}, {"name": "BK-18", "type": "Einzellader", "cal": "7.62×39 mm", "mag": "1 Patrone", "modes": "Single", "optic": "Keine", "sup": "Improvisierter Schalldämpfer", "role": "Einfach, aber zuverlässig."}, {"name": "BK-43", "type": "Schrotflinte", "cal": "12ga", "mag": "2 Patronen", "modes": "Single / Double", "optic": "Keine", "sup": "Nein", "role": "Extrem gefährlich in Gebäuden."}, {"name": "BK-133", "type": "Pumpgun", "cal": "12ga", "mag": "Röhrenmagazin", "modes": "Pump", "optic": "Keine", "sup": "Nein", "role": "Starke CQB-Pumpgun."}, {"name": "Vaiga", "type": "Selbstladeflinte", "cal": "12ga", "mag": "Vaiga Magazin / Trommel", "modes": "Semi", "optic": "Rail-Optiken", "sup": "Nein", "role": "Sehr hohe CQB-Feuerkraft."}, {"name": "Mlock-91", "type": "Pistole", "cal": "9×19 mm", "mag": "Mlock Magazin", "modes": "Semi", "optic": "Keine", "sup": "Pistolenschalldämpfer", "role": "Gute Standard-Pistole."}, {"name": "CR-75", "type": "Pistole", "cal": "9×19 mm", "mag": "CR-75 Magazin", "modes": "Semi", "optic": "Keine", "sup": "Pistolenschalldämpfer", "role": "Solide Seitenwaffe."}, {"name": "FX-45", "type": "Pistole", "cal": ".45 ACP", "mag": "FX-45 Magazin", "modes": "Semi", "optic": "Mini-Sights je nach Setup", "sup": "Pistolenschalldämpfer", "role": "Starke .45-Seitenwaffe."}, {"name": "MK II", "type": "Pistole", "cal": ".22 LR", "mag": "MK II Magazin", "modes": "Semi", "optic": "Keine", "sup": "Integriert", "role": "Sehr leise gegen Infizierte."}, {"name": "Deagle", "type": "Pistole", "cal": ".357", "mag": "Deagle Magazin", "modes": "Semi", "optic": "Pistolenscope", "sup": "Nein", "role": "Sehr hohe Pistolenleistung."}, {"name": "Revolver", "type": "Revolver", "cal": ".357", "mag": "Trommel", "modes": "Double/Single Action", "optic": "Keine", "sup": "Nein", "role": "Hoher Schaden ohne Magazin."}, {"name": "USG-45", "type": "MP", "cal": ".45 ACP", "mag": "USG Magazin", "modes": "Semi / Auto", "optic": "Rail-Optiken", "sup": "Pistolenschalldämpfer", "role": "Gute CQB-MP."}, {"name": "SG5-K", "type": "MP", "cal": "9×19 mm", "mag": "SG5-K Magazin", "modes": "Semi / Auto", "optic": "Rail-Optiken", "sup": "Pistolenschalldämpfer", "role": "Sehr kontrollierbar in Gebäuden."}, {"name": "Scorpion", "type": "MP", "cal": ".380 ACP", "mag": "Scorpion Magazin", "modes": "Semi / Auto", "optic": "Keine", "sup": "Pistolenschalldämpfer", "role": "Frühe automatische CQB-Waffe."}], "armor": [{"name": "Plate Carrier", "ballistic": "Sehr hoch", "melee": "Hoch", "weight": "Sehr schwer", "storage": "Mit Pouches", "best": "PvP / Militär"}, {"name": "Press Vest", "ballistic": "Hoch", "melee": "Mittel", "weight": "Mittel", "storage": "Integriert", "best": "Allround"}, {"name": "Stab Vest", "ballistic": "Niedrig–Mittel", "melee": "Gut", "weight": "Leicht–Mittel", "storage": "Nein", "best": "Früh / Polizei"}, {"name": "Assault Helmet", "ballistic": "Hoch", "melee": "Hoch", "weight": "Mittel", "storage": "Nein", "best": "PvP"}, {"name": "Tactical Helmet", "ballistic": "Hoch", "melee": "Hoch", "weight": "Mittel", "storage": "Anbauteile", "best": "PvP / NVG"}, {"name": "Combat Helmet", "ballistic": "Gut", "melee": "Gut", "weight": "Mittel", "storage": "Nein", "best": "Militär"}], "food": [{"name": "Tierfleisch", "raw": "Risiko", "cooked": "Sehr gut", "dried": "Gut / haltbar", "note": "Nach Schlachten Hände waschen oder Handschuhe tragen."}, {"name": "Fischfilet", "raw": "Risiko", "cooked": "Sehr gut", "dried": "Gut / haltbar", "note": "Fischen ist eine der zuverlässigsten Nahrungsquellen."}, {"name": "Konserven", "raw": "—", "cooked": "Nicht nötig", "dried": "—", "note": "Dosenöffner reduziert Verlust beim Öffnen."}, {"name": "Obst", "raw": "Frisch okay", "cooked": "Optional", "dried": "Haltbar", "note": "Verdorbene Varianten meiden."}, {"name": "Pilze", "raw": "Frisch okay", "cooked": "Optional", "dried": "Haltbar", "note": "Zustand immer prüfen."}, {"name": "Gemüse", "raw": "Frisch okay", "cooked": "Gut", "dried": "Haltbar", "note": "Kann in Basen angebaut werden."}], "meds": [{"name": "Tetracyclin", "use": "Bestimmte bakterielle Infektionen", "note": "Kein Universalheilmittel."}, {"name": "Aktivkohle", "use": "Bestimmte Vergiftungen / problematische Nahrung", "note": "Nicht für jede Krankheit."}, {"name": "Multivitamine", "use": "Immunsystem temporär unterstützen", "note": "Ersetzen keine passende Behandlung."}, {"name": "Epinephrin", "use": "Bewusstlosen Spieler schnell aufwecken", "note": "Behebt die Ursache der Ohnmacht nicht."}, {"name": "Morphin", "use": "Schmerz/Bewegung bei schweren Verletzungen", "note": "Situativ verwenden."}, {"name": "Saline IV", "use": "Unterstützt Flüssigkeit/Blutregeneration", "note": "IV-Startset erforderlich."}, {"name": "Blutbeutel IV", "use": "Direkte Blutgabe", "note": "Blutgruppen-Kompatibilität zwingend prüfen."}, {"name": "Desinfektionsmittel", "use": "Wunden/Lumpen desinfizieren", "note": "Hilft Wundinfektionen zu vermeiden."}], "vehicles": [{"name": "Ada 4x4", "parts": ["Autobatterie", "Zündkerze", "Kühler", "Räder", "Benzin", "Kühlwasser"], "role": "Geländegängiger PKW."}, {"name": "Olga 24", "parts": ["Autobatterie", "Zündkerze", "Kühler", "Räder", "Benzin", "Kühlwasser"], "role": "Großer Straßen-PKW."}, {"name": "Gunter 2", "parts": ["Autobatterie", "Zündkerze", "Kühler", "Räder", "Benzin", "Kühlwasser"], "role": "Schneller Straßen-PKW."}, {"name": "Sarka 120", "parts": ["Autobatterie", "Zündkerze", "Kühler", "Räder", "Benzin", "Kühlwasser"], "role": "Kompakter PKW."}, {"name": "M3S", "parts": ["LKW-Batterie", "Räder", "Benzin"], "role": "Großer LKW mit viel Stauraum; Teile unterscheiden sich von PKW."}], "repair": [["Schusswaffe", "Waffenreinigungsset"], ["Stoffkleidung", "Nähset / teilweise Klebeband"], ["Lederausrüstung", "Leder-Nähset"], ["Plate Carrier / harte Ausrüstung", "Epoxidharz je nach Gegenstand"], ["Elektronik / Autobatterie", "Elektronik-Reparaturset"], ["Reifen", "Reifenreparaturset"], ["Metall-/Kochgegenstände", "Lötlampe bei kompatiblen Gegenständen"]], "loot": [["Militärbasis", "Waffen, Magazine, Munition, Rüstung, Optiken", "Sehr hoch"], ["Polizei", "Pistolen, Munition, Westen, Utility", "Mittel"], ["Krankenhaus/Klinik", "Verbände, Medikamente, Blut-/IV-Zubehör", "Mittel"], ["Jagdgebiet", "Jagdwaffen, Optiken, Outdoor-Kleidung", "Mittel"], ["Industrie", "Werkzeuge, Nägel, Sägen, Fahrzeugteile", "Mittel"], ["Wohnhäuser", "Essen, Kleidung, Haushaltsgegenstände", "Niedrig–Mittel"]], "symptoms": [{"id": "vomit", "label": "🤮 Erbrechen"}, {"id": "cough", "label": "🤧 Husten/Niesen"}, {"id": "fever", "label": "🌡️ Fieber/Schütteln"}, {"id": "pain", "label": "😣 Schmerzgeräusche"}, {"id": "blur", "label": "👁️ Verschwommen / schwach"}, {"id": "wound", "label": "🩸 Wunde/Infektion"}], "controller": [["Inventar", "Touchpad"], ["Interagieren / Aufheben", "□ (je nach Kontext halten/tippen)"], ["Springen / Klettern", "✕"], ["Ducken / Haltung", "○"], ["Nachladen / Waffenaktion", "△ / Kontextaktion je nach Belegung"], ["Zielen", "L2"], ["Feuern / Schlagen", "R2"], ["Freie Sicht / Umschauen", "Controller-/Stick-Funktion je nach Belegung"], ["Quick Slots", "Radial-/Schnellzugriff je nach Controller-Schema"]]};
+const FAVORITES_KEY='jk_dayz_favs_v1', RECENT_KEY='jk_dayz_recent_v1', LOOT_KEY='jk_dayz_loot_v1';
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+function esc(s){return String(s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
+function toast(msg){const t=document.createElement('div');t.className='toast';t.textContent=msg;document.body.appendChild(t);setTimeout(()=>t.remove(),1700)}
+function getFavs(){return JSON.parse(localStorage.getItem(FAVORITES_KEY)||'[]')} function setFavs(v){localStorage.setItem(FAVORITES_KEY,JSON.stringify(v));renderFavs()}
+function toggleFav(id,title){let f=getFavs();const i=f.findIndex(x=>x.id===id);if(i>=0)f.splice(i,1);else f.unshift({id,title});setFavs(f);renderAll();toast(i>=0?'Favorit entfernt':'Favorit gespeichert ⭐')}
+function isFav(id){return getFavs().some(x=>x.id===id)}
+function addRecent(id,title,target){let r=JSON.parse(localStorage.getItem(RECENT_KEY)||'[]').filter(x=>x.id!==id);r.unshift({id,title,target});r=r.slice(0,6);localStorage.setItem(RECENT_KEY,JSON.stringify(r));renderRecent()}
+function renderRecent(){const r=JSON.parse(localStorage.getItem(RECENT_KEY)||'[]');$('#recentList').innerHTML=r.length?r.map(x=>`<div class="row"><a href="${x.target}" onclick="toast('Geöffnet')"><b>${esc(x.title)}</b></a><span>›</span></div>`).join(''):'Noch nichts angesehen.'}
+function card(id,icon,title,sub,body,target){return `<details class="card searchable" data-search="${esc((title+' '+sub+' '+body.replace(/<[^>]+>/g,' ')).toLowerCase())}" id="${id}" ontoggle="if(this.open)addRecent('${id}','${esc(title)}','${target||('#'+id)}')"><summary><span class="ico">${icon}</span><span class="ct"><b>${esc(title)}</b><small>${esc(sub)}</small></span><button class="favbtn ${isFav(id)?'on':''}" onclick="event.preventDefault();event.stopPropagation();toggleFav('${id}','${esc(title)}')">★</button><span class="chev">›</span></summary><div class="body">${body}</div></details>`}
+function renderCraft(){
+ $('#craftList').innerHTML=DB.crafting.map((r,i)=>card('craft-'+i,'🧰',r.name,r.cat,
+ `<div class="row"><span>Material</span><b>${r.need.map(esc).join('<br>')}</b></div><div class="row"><span>Werkzeug/Aktion</span><b>${esc(r.tool)}</b></div><div class="row"><span>Ergebnis</span><b class="gold">${esc(r.result)}</b></div>`, '#craft-'+i)).join('');
+}
+function renderWeapons(){
+ $('#weaponList').innerHTML=DB.weapons.map((w,i)=>card('weapon-'+i,'🔫',w.name,w.type,
+ `<div class="row"><span>Kaliber</span><b>${esc(w.cal)}</b></div><div class="row"><span>Magazin</span><b>${esc(w.mag)}</b></div><div class="row"><span>Feuermodus</span><b>${esc(w.modes)}</b></div><div class="row"><span>Optik</span><b>${esc(w.optic)}</b></div><div class="row"><span>Schalldämpfer</span><b>${esc(w.sup)}</b></div><p>${esc(w.role)}</p>`, '#weapon-'+i)).join('');
+}
+function renderFood(){$('#foodList').innerHTML=DB.food.map((f,i)=>card('food-'+i,'🍖',f.name,'Nahrung',`<div class="row"><span>Roh</span><b>${esc(f.raw)}</b></div><div class="row"><span>Gegart</span><b>${esc(f.cooked)}</b></div><div class="row"><span>Getrocknet</span><b>${esc(f.dried)}</b></div><p>${esc(f.note)}</p>`,'#food-'+i)).join('')}
+function renderMeds(){$('#medList').innerHTML=DB.meds.map((m,i)=>card('med-'+i,'💊',m.name,'Medizin',`<p><b>${esc(m.use)}</b></p><p>${esc(m.note)}</p>`,'#med-'+i)).join('')}
+function renderVehicles(){$('#vehicleList').innerHTML=DB.vehicles.map((v,i)=>card('vehicle-'+i,'🚗',v.name,'Fahrzeug',`<p>${esc(v.role)}</p><div class="chips">${v.parts.map(x=>`<span class="chip">${esc(x)}</span>`).join('')}</div>`,'#vehicle-'+i)).join('')}
+function renderArmor(){
+ $('#armorTable').innerHTML='<table><thead><tr><th>Rüstung</th><th>Ballistik</th><th>Nahkampf</th><th>Gewicht</th><th>Stauraum</th><th>Ideal</th></tr></thead><tbody>'+DB.armor.map(a=>`<tr><td><b>${esc(a.name)}</b></td><td>${esc(a.ballistic)}</td><td>${esc(a.melee)}</td><td>${esc(a.weight)}</td><td>${esc(a.storage)}</td><td>${esc(a.best)}</td></tr>`).join('')+'</tbody></table>';
+}
+function renderLoot(){
+ $('#lootList').innerHTML=DB.loot.map((x,i)=>card('loot-'+i,'📍',x[0],'Loot-Zone',`<div class="row"><span>Typischer Loot</span><b>${esc(x[1])}</b></div><div class="row"><span>Risiko</span><b>${esc(x[2])}</b></div>`,'#loot-'+i)).join('');
+}
+function renderController(){$('#controllerList').innerHTML=DB.controller.map(x=>`<div class="row"><span>${esc(x[0])}</span><b>${esc(x[1])}</b></div>`).join('')}
+function renderFavs(){
+ const f=getFavs();$('#favList').innerHTML=f.length?f.map(x=>`<div class="row"><a href="#${x.id}"><b>${esc(x.title)}</b></a><button class="favbtn on" onclick="toggleFav('${x.id}','${esc(x.title)}')">★</button></div>`).join(''):'Noch keine Favoriten.';
+}
+function showFavorites(){location.hash='favorites';renderFavs()}
+function renderAll(){renderCraft();renderWeapons();renderFood();renderMeds();renderVehicles();renderArmor();renderLoot();renderController();renderFavs();renderRecent();applySearch()}
+
+function applySearch(){
+ const q=($('#globalSearch').value||'').trim().toLowerCase();
+ $$('.searchable').forEach(el=>el.classList.toggle('hidden',!!q && !(el.dataset.search||'').includes(q)));
+ $$('.search-section').forEach(sec=>{if(!q)return sec.classList.remove('hidden');const searchable=[...sec.querySelectorAll('.searchable')];const panelText=sec.innerText.toLowerCase();sec.classList.toggle('hidden',searchable.length?searchable.every(x=>x.classList.contains('hidden')):!panelText.includes(q));});
+}
+$('#globalSearch').addEventListener('input',applySearch);$('#clearSearch').onclick=()=>{$('#globalSearch').value='';applySearch();$('#globalSearch').focus()};
+
+$('#materialInput').addEventListener('input',()=>{const q=$('#materialInput').value.trim().toLowerCase();const found=DB.crafting.filter(r=>r.need.join(' ').toLowerCase().includes(q)||r.tags.join(' ').includes(q));$('#materialResults').innerHTML=q?(found.length?found.map(r=>`✅ <b>${esc(r.name)}</b> → ${esc(r.result)}`).join('<br>'):'Nichts gefunden.'):'Material eingeben.'});
+const cals=[...new Set(DB.weapons.map(w=>w.cal))].sort();$('#caliberSelect').innerHTML+=[...cals].map(x=>`<option>${esc(x)}</option>`).join('');
+$('#caliberSelect').onchange=()=>{const v=$('#caliberSelect').value;const a=DB.weapons.filter(w=>w.cal===v);$('#caliberResult').innerHTML=a.length?a.map(w=>`🔫 <b>${esc(w.name)}</b> – ${esc(w.type)}`).join('<br>'):'Kaliber auswählen.'};
+$('#attachSelect').onchange=()=>{const v=$('#attachSelect').value.toLowerCase();const a=DB.weapons.filter(w=>(w.optic+' '+w.sup).toLowerCase().includes(v.replace('standard-','')));$('#attachResult').innerHTML=a.length?a.map(w=>`🔫 <b>${esc(w.name)}</b>`).join('<br>'):'Keine Treffer / Aufsatz auswählen.'};
+
+$('#symptomChecks').innerHTML=DB.symptoms.map(s=>`<label class="checkitem"><input type="checkbox" value="${s.id}">${s.label}</label>`).join('');
+function diagnoseSymptoms(){
+ const s=new Set($$('#symptomChecks input:checked').map(x=>x.value));let out=[];
+ if(s.has('vomit'))out.push('🤮 Prüfe verunreinigtes Wasser, rohes/verdorbenes Essen und Überessen. Kleine Portionen essen/trinken, Ursache behandeln.');
+ if(s.has('cough'))out.push('🤧 Atemwegsinfektion möglich: warm/trocken bleiben, Immunstatus verbessern, Abstand zu anderen Spielern.');
+ if(s.has('wound'))out.push('🩸 Wundinfektion möglich: Wunde/Verbände sauber halten und passende Behandlung nutzen.');
+ if(s.has('pain'))out.push('😣 Verletzung/Schaden prüfen; Beinbruch, Treffer oder Krankheit unterscheiden.');
+ if(s.has('blur'))out.push('👁️ Blut, Wasser, Energie und Gesundheit prüfen – niedrige Blutwerte können Schwäche/Ohnmacht verursachen.');
+ if(s.has('fever'))out.push('🌡️ Temperatur/Krankheit prüfen und warm/trocken bleiben.');
+ $('#symptomResult').innerHTML=out.length?out.join('<br><br>'):'Keine Symptome ausgewählt.';
+}
+
+const compatibility={
+'O−':['O−'],'O+':['O−','O+'],'A−':['O−','A−'],'A+':['O−','O+','A−','A+'],
+'B−':['O−','B−'],'B+':['O−','O+','B−','B+'],'AB−':['O−','A−','B−','AB−'],'AB+':['O−','O+','A−','A+','B−','B+','AB−','AB+']
+};
+function bloodCheck(){const r=$('#recipient').value;$('#bloodResult').innerHTML=`🩸 <b>${r}</b> kann erhalten von: <b>${compatibility[r].join(', ')}</b><br><br>Vor Transfusion Blut testen.`} bloodCheck();
+
+function diagnoseCar(){
+ const car=$('#carSelect').value;if(!car)return $('#carResult').innerHTML='Erst Fahrzeug auswählen.';
+ const checked=new Set($$('#carChecks input:checked').map(x=>x.value));const isTruck=car==='M3S';let miss=[];
+ if(!checked.has('battery'))miss.push(isTruck?'LKW-Batterie':'Autobatterie');
+ if(!isTruck&&!checked.has('plug'))miss.push('Zündkerze');
+ if(!checked.has('fuel'))miss.push('Benzin');
+ if(!isTruck&&!checked.has('rad'))miss.push('Kühler');
+ if(!isTruck&&!checked.has('water'))miss.push('Kühlwasser');
+ if(!checked.has('wheels'))miss.push('fahrbereite Räder');
+ $('#carResult').className='resultbox '+(miss.length?'bad':'good');
+ $('#carResult').innerHTML=miss.length?`❌ Prüfen/fehlt: <b>${miss.join(', ')}</b>. Zusätzlich Zustand der Teile und Motorwarnung beachten.`:'✅ Grundvoraussetzungen markiert. Wenn es trotzdem nicht startet: Zustand der Teile, Motor und Serverzustand prüfen.';
+}
+function calcBase(){
+ const crates=+$('#crateCount').value||0,fences=+$('#fenceCount').value||0,towers=+$('#towerCount').value||0,shelters=+$('#shelterCount').value||0;
+ const boards=crates*8, nails=crates*16, short=fences*2+towers*4+shelters*4, rope=fences+towers+shelters;
+ $('#baseResult').innerHTML=`📦 Für die ausgewählten <b>Bausätze/Kisten</b>:<br>• Bretter: <b>${boards}</b> (Kisten-Grundrezept)<br>• Nägel: <b>${nails}</b> (Kisten-Grundrezept)<br>• Kurze Stöcke: <b>${short}</b><br>• Seile: <b>${rope}</b><br><br><span style="color:#aaa">Hinweis: vollständige Zaun-/Wachturm-Strukturen brauchen danach zusätzliche Stämme, Bretter und Nägel je Bauphase.</span>`;
+}
+$('#repairSelect').onchange=()=>{const v=$('#repairSelect').value;const x=DB.repair.find(x=>x[0]===v);$('#repairResult').innerHTML=x?`🔧 <b>${esc(x[0])}</b> → ${esc(x[1])}`:'Typ auswählen.'};
+
+const defaultLoot=['Verband','Messer','Wasserbehälter','Essen','Seil','Nägel','Säge','Munition','Reparaturkit','Medikamente'];
+function getLootState(){return JSON.parse(localStorage.getItem(LOOT_KEY)||'null')||defaultLoot.map(x=>({name:x,done:false}))}
+function saveLoot(v){localStorage.setItem(LOOT_KEY,JSON.stringify(v));renderLootChecklist()}
+function renderLootChecklist(){const a=getLootState();$('#lootChecklist').innerHTML=a.map((x,i)=>`<label class="checkitem"><input type="checkbox" ${x.done?'checked':''} onchange="toggleLoot(${i},this.checked)">${esc(x.name)}</label>`).join('')}
+function toggleLoot(i,v){const a=getLootState();a[i].done=v;saveLoot(a)}
+function addLootItem(){const n=prompt('Was willst du hinzufügen?');if(n){const a=getLootState();a.push({name:n,done:false});saveLoot(a)}}
+function resetLoot(){localStorage.removeItem(LOOT_KEY);renderLootChecklist();toast('Checkliste zurückgesetzt')}
+renderLootChecklist();
+
+function openAssistant(){$('#assistantModal').classList.add('open')} function closeAssistant(){$('#assistantModal').classList.remove('open')}
+function assistantAnswer(k){
+ const a={
+ hunger:'🍎 <b>Priorität:</b> Küste/Ort absuchen → Huhn/Tier oder Angel vorbereiten → Fleisch/Fisch vollständig garen → kleine sichere Portionen essen.',
+ thirst:'💧 <b>Priorität:</b> Brunnen suchen. Gefundene Flaschen leeren. Oberflächenwasser nur sicher aufbereitet trinken.',
+ sick:'🤢 Öffne den <b>Symptom-Checker</b>. Prüfe zuerst Wasser, rohes/verdorbenes Essen, Temperatur, Wunden und typische Symptome.',
+ bleed:'🩸 Sofort Verband oder saubere/desinfizierte Lumpen verwenden. Jede Blutung einzeln schließen. Danach Blut/Energie/Wasser regenerieren.',
+ cold:'🥶 Nässe reduzieren, Kleidung auswringen, Feuer machen, trocknen, warme Kleidung/Isolation nutzen und Energie hochhalten.',
+ car:'🚗 Erst Fahrzeug identifizieren. Batterie, Zündkerze (PKW), Benzin, Kühler + Wasser und Räder prüfen. Danach Teilzustände checken.',
+ base:'🏠 Erst Werkzeuge sammeln: Seil, kurze Stöcke, Axt/Säge, Schaufel/Spitzhacke, Hammer/Beil, Nägel, Bretter. Dann Zaun-Kit platzieren und stufenweise bauen.',
+ gun:'🔫 Passendes Kaliber und Magazin prüfen, Magazin laden, durchladen. Bei Ladehemmung Störung beheben. Beschädigte Waffen mit Waffenreinigungsset reparieren.'
+ };
+ $('#assistantResult').innerHTML=a[k]||'';
+}
+window.addEventListener('scroll',()=>$('#topbtn').style.display=scrollY>600?'block':'none');
+async function shareApp(){if(navigator.share)try{await navigator.share({title:'J/K DayZ',text:'DayZ PS5 Survival Guide',url:location.href})}catch(e){}else toast('Link aus der Adresszeile kopieren.')}
+
+renderAll();
+</script>
+</body></html>
